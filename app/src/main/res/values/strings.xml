@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Catch-Up</string>
+    <string name="catchup">CAT-CH UP</string>
+    <string name="catchuptagline">Created by cat lovers, for cat lovers</string>
+    <string name="name">Name</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="login">Already have an account? Login</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="login2">Login</string>
+    <string name="register">Create new account</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add">Add</string>
+    <string name="profile">Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+</resources>

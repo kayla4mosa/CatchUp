@@ -1,0 +1,60 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/logoView"
+        android:layout_width="180dp"
+        android:layout_height="180dp"
+        android:layout_marginTop="116dp"
+        android:src="@drawable/logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/catchup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:fontFamily="@font/poppins"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="1"
+        android:text="@string/catchup"
+        android:textColor="@color/dark_purple"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@+id/logoView"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+    <TextView
+        android:id="@+id/phrase"
+        android:layout_width="294dp"
+        android:layout_height="77dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/poppins"
+        android:shadowColor="#80000000"
+        android:shadowDx="2"
+        android:shadowDy="4"
+        android:shadowRadius="1"
+        android:text="@string/catchuptagline"
+        android:textAlignment="center"
+        android:textColor="@color/dark_purple"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/catchup" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158713680394",
+    "project_id": "catch-up-e729f",
+    "storage_bucket": "catch-up-e729f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158713680394:android:7e20e2f62d5911147545f3",
+        "android_client_info": {
+          "package_name": "com.example.catch_up"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGi_fYKk2YoZhyh27XHl0U3HJybgWJODw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
